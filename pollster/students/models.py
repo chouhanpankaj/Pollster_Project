@@ -6,5 +6,6 @@ class Student(models.Model):
 
     name = models.CharField(max_length=130)
     email = models.CharField(max_length=190)
+    contact = models.CharField(max_length=15)
     address = models.TextField(null=True, default=None)
 
